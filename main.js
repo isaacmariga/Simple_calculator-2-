@@ -5,15 +5,19 @@
 
 $(".num").click(function() {
     let number = (this.id);
-    $(".ans").append(number)
+    $("#ans").val($("#ans").val() + number);
 
-    $('#equal').click(function() {
-        alert('.number')
 
-    })
 
-});
+})
+
 $(".symb").click(function() {
     let symbol = (this.id);
-    $(".ans").append(symbol)
+    $("#ans").val($("#ans").val() + symbol);
+});
+
+$('#equal').click(function() {
+    let fname = $('.ans').val();
+    alert(fname)
+
 });
