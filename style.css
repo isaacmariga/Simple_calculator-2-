@@ -1,0 +1,38 @@
+* {
+    padding: none;
+    border: none;
+    margin: none;
+    border-radius: 20px;
+}
+
+.border {
+    background-color: rgb(87, 87, 241);
+    height: 40em;
+    width: 30em;
+}
+
+.content {
+    display: grid;
+}
+
+.ans {
+    margin: 5px;
+    padding: 5px;
+    height: 100px;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.514);
+    background-color: white;
+}
+
+.numbers {
+    padding: 5px;
+    height: 30em;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 20px;
+}
+
+button {
+    cursor: pointer;
+}
